@@ -3,4 +3,6 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.post_list, name='post_list'),
+    url(r'^privacy$', views.post_list2, name='post_list2'),
 ]
+
